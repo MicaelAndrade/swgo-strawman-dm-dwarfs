@@ -1,0 +1,14 @@
+Carina 105
+Fornax 147
+LeoI 254
+LeoII 233
+Sculptor 86 
+Sextans 86
+BootesI 66
+ComaBerenices 44
+Hercules 132
+LeoIV 154
+LeoV 178
+LeoT 417
+Segue1 23
+Segue2 35
