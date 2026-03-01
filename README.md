@@ -15,7 +15,7 @@ Jupyter notebooks to compute SWGO 95% C.L. upper limits on the DM annihilation c
 The expected $\gamma$-ray photon flux from DM pair-annihilation is:
 
 $$
-\frac{d\Phi}{dE} = \frac{\langle\sigma v\rangle}{8\pi\, m_{\rm DM}^2}\,\frac{dN}{dE}(E, m_{\rm DM}) \cdot J
+\frac{d\Phi}{dE} = \frac{\langle\sigma v\rangle}{8\pi m_{\rm DM}^2}\,\frac{dN}{dE}(E, m_{\rm DM}) \cdot J
 $$
 
 where
@@ -46,7 +46,7 @@ Upper limits are set with a Poisson log-likelihood ratio (Wilks' theorem), scann
 `gen_ns` is defined as
 
 $$
-\mathrm{gen\_ns} \equiv \frac{N_{\rm signal}}{\langle\sigma v\rangle \, J}
+\mathrm{gen\_ns} \equiv \frac{N_{\rm signal}}{\langle\sigma v\rangle J}
 $$
 
 It encodes the **SWGO detector response** (effective area, energy dispersion, observation time) convolved with the **DM spectrum** for a given channel.  
