@@ -15,7 +15,7 @@ Jupyter notebooks to compute SWGO 95% C.L. upper limits on the DM annihilation c
 The expected $\gamma$-ray photon flux from DM pair-annihilation is:
 
 $$
-\frac{d\Phi}{dE} = \frac{\langle\sigma v\rangle}{8\pi m_{\rm DM}^2}\,\frac{dN}{dE}(E, m_{\rm DM}) \cdot J
+\frac{d\Phi}{dE} = \frac{\langle\sigma v\rangle}{8\pi m_{\rm DM}^2}\frac{dN}{dE}(E, m_{\rm DM}) \cdot J
 $$
 
 where
@@ -25,7 +25,7 @@ where
 | $\langle\sigma v\rangle$ | velocity-averaged annihilation cross-section | cm³ s⁻¹ |
 | $m_{\rm DM}$ | DM particle mass | GeV |
 | $dN/dE$ | photon spectrum per annihilation | GeV⁻¹ |
-| $J = \int \rho^2\, ds\, d\Omega$ | J-factor (line-of-sight integral) | GeV² cm⁻⁵ |
+| $J = \int \rho^2 ds d\Omega$ | J-factor (line-of-sight integral) | GeV² cm⁻⁵ |
 
 Upper limits are set with a Poisson log-likelihood ratio (Wilks' theorem), scanning $\langle\sigma v\rangle$ until the test statistic reaches $TS = 2.71$.
 
