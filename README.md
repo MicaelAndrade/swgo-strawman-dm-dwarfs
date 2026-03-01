@@ -46,7 +46,7 @@ Upper limits are set with a Poisson log-likelihood ratio (Wilks' theorem), scann
 `gen_ns` is defined as
 
 $$
-\text{gen\_ns} = \frac{N_{\rm signal}}{\langle\sigma v\rangle \cdot J}
+\mathrm{gen\_ns} \equiv \frac{N_{\rm signal}}{\langle\sigma v\rangle \, J}
 $$
 
 It encodes the **SWGO detector response** (effective area, energy dispersion, observation time) convolved with the **DM spectrum** for a given channel.  
@@ -62,7 +62,7 @@ The output is a 2-D array of shape `(n_bkg_bins, n_mass)` stored in `results/gen
 .
 ├── inputs/                        ← SWGO strawman IRFs (from harmscho/SGSOSensitivity)
 │   ├── hArea_swgo_i_g.txt         ← Effective area vs energy
-│   ├── swgo_BckRate_per_sr.txt  ← Background rate per sr
+│   ├── swgo_BckRate_per_sr.txt    ← Background rate per sr
 │   └── SWGO_i_Edisp_g.txt         ← Energy dispersion matrix
 │
 ├── dwarfs/                        ← Dwarf galaxy data (Geringer-Sameth et al. 2015)
